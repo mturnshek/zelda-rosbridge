@@ -1,8 +1,8 @@
-### Setup
+### Setup (any linux)
 
 - Download flatpak, download snes9x for flatpak
 - Find a Zelda ROM
-- Capture the mss screenshot where the emulator window is
+- Screencap with mss at the location of the emulator window
 
 ### SNES button mapping
 
