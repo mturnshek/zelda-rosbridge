@@ -21,6 +21,6 @@ START => "q" (`/menu`)
 
 `roscore`
 
-`python zelda_bridge_node.py` (you will have to be sudo for keyboard module to work)
+`python zelda_bridge_node.py` (you will have to be root (`sudo su`, then source ros) for keyboard module to work)
 
 `rosrun image_transport repubish raw in:=/camera/rgb/image_raw compressed out:=/camera/rgb/image_raw`
