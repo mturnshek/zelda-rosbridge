@@ -6,15 +6,15 @@
 
 ### SNES button mapping
 
-A => "r" `/interact`
+A => "r" (`/interact`)
 
-B => "d" `/swing`
+B => "d" (`/swing`)
 
-Y => "s" `/item`
+Y => "s" (`/item`)
 
-X => "e" `/map`
+X => "e" (`/map`)
 
-START => "q" `/menu`
+START => "q" (`/menu`)
 
 ### Run
 
