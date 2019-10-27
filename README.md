@@ -3,6 +3,7 @@
 - Download flatpak, download snes9x for flatpak
 - Find a Zelda ROM
 - Screencap with mss at the location of the emulator window
+- Make sure the emulator window is selected
 
 ### SNES button mapping
 
