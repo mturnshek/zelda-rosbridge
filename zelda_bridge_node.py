@@ -1,15 +1,14 @@
+import keyboard
+import numpy as np
 import rospy
-from rospy import Publisher, Subscriber
-from geometry_msgs.msg import Twist
-from std_msgs.msg import Bool
-from sensor_msgs.msg import Image
 from cv_bridge import CvBridge, CvBridgeError
+from geometry_msgs.msg import Twist
+from mss import mss
+from rospy import Publisher, Subscriber
+from sensor_msgs.msg import Image
+from std_msgs.msg import Bool
 
 import cv2
-import numpy as np
-
-import keyboard
-from mss import mss
 
 
 class ZeldaBridgeNode(object):
@@ -35,7 +34,7 @@ class ZeldaBridgeNode(object):
 
         self.bridge = CvBridge()
         self.screenshotter = mss()
-        self.monitor = {"top": 1000, "left": 500, "width": 500, "height": 500}
+        self.monitor = {"top": 1000, "left": 800, "width": 500, "height": 500}
 
         self.rate = rospy.Rate(30)
         while not rospy.is_shutdown():
